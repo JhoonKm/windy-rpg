@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>바람의 나라 - 미니 RPG</title>
+  <style>
+    body { background: #222; color: #fff; font-family: sans-serif; margin: 0; }
+    #gameCanvas { display: block; margin: 30px auto 0 auto; background: #333; border: 2px solid #fff; }
+    #ui { text-align: center; margin-top: 10px; }
+    #startBtn { padding: 10px 20px; font-size: 18px; }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="480" height="320"></canvas>
+  <div id="ui">
+    <button id="startBtn">게임 시작</button>
+    <div id="msg"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
